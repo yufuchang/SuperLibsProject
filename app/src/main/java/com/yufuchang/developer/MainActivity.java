@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
                 new EmmSecurityKeyboard(MainActivity.this).showSecurityKeyBoard(editText);
+
                 return false;
             }
         });
