@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <!--键盘相关-->
+    <string name="emm_keyboard_a2z">abcdefghijklmnopqrstuvwxyz</string>
+    <string name="emm_keyboard_zero2nine">1234567890</string>
+    <string name="emm_keyboard_number">Number</string>
+    <string name="emm_keyboard_symbol">#+=</string>
+    <string name="emm_keyboard_letter">Letter</string>
+    <string name="emm_secure_keyboard">Safety Keyboard</string>
+    <string name="emm_keyboard_space">space</string>
+    <string name="input_type_edit_finish">OK</string>
+    <string name="ok">OK</string>
+
+
+</resources>
