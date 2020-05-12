@@ -10,16 +10,17 @@ import com.yufuchang.developer.keyboard.EmmSecurityKeyboard;
 
 public class MainActivity extends AppCompatActivity {
 
+    private EmmSecurityKeyboard securityKeyboard;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        securityKeyboard = new EmmSecurityKeyboard(this);
         final EditText editText = findViewById(R.id.et_keyboard);
         editText.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View view, MotionEvent motionEvent) {
-                new EmmSecurityKeyboard(MainActivity.this).showSecurityKeyBoard(editText);
-
+                securityKeyboard.showSecurityKeyBoard(editText);
                 return false;
             }
         });
